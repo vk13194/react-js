@@ -1,42 +1,9 @@
 import React from 'react';
 //import React, {component} from 'react';
 import './App.css';
-//import ReactDOM from 'react-dom';
-//import Greet from './components/Greet';
-//import Form from './components/Form';
-//import {useState} from 'react';
-import Count from './components/Count';
 
 
-
-/*function App() {
-  return (
-    <div className="App">
-      <h1>hello react</h1>
-    </div>
-  );
-}*/
-class App extends React.Component {
-  render() {
-     return (
-        <div >
-           <Count />
-        </div>
-     );
-  }
-}
-/*function App() {
-  const [count, setCount] = useState(0);
-  return (
-    <>
-      Count: {count}
-      <button onClick={() => setCount(0)}>Reset</button>
-      <button onClick={() => setCount(count + 1)}>+</button>
-      <button onClick={() => setCount(count- 1)}>-</button>
-    </>
-  );
-}*/
-/*import  { useState, Fragment } from 'react'
+import  { useState, Fragment } from 'react'
 import AddUserForm from './components/AddUserForm'
 import EditUserForm from './components/EditUserForm'
 import UserTable from './components/UserTable'
@@ -109,5 +76,5 @@ const App = () => {
 			</div>
 		</div>
 	)
-}*/
+}
 export default App;
